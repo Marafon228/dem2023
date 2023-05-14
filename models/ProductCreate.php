@@ -4,22 +4,6 @@ namespace app\models;
 
 use Yii;
 
-/**
- * This is the model class for table "product".
- *
- * @property int $id
- * @property string $name
- * @property string $photo
- * @property float $price
- * @property string $timestamp
- * @property string $country_pr
- * @property string $color
- * @property int $quantity
- * @property int $id_category
- *
- * @property Category $category
- * @property ProductsOrder[] $productsOrders
- */
 class ProductCreate extends Product
 {
 

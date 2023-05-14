@@ -19,8 +19,6 @@ use yii\bootstrap5\ActiveForm;
 
     <?= $form->field($model, 'price')->textInput(['maxlength' => true]) ?>
 
-
-
     <?= $form->field($model, 'country_pr')->textInput(['maxlength' => true]) ?>
 
     <?= $form->field($model, 'color')->textInput(['maxlength' => true]) ?>
